@@ -6,12 +6,12 @@ export default (syntax) => ({
     // Editor Base Colors
     // ---------------------------
     "selection.background": "#169fb155",
-    "descriptionForeground": "#929ea0",
+    descriptionForeground: "#929ea0",
     errorForeground: "#ff2d19",
     "widget.shadow": "#00000055",
     "editor.background": "#fff7ec",
-    "editorLineNumber.foreground": "#ffaa7665",
-    "editorLineNumber.activeForeground": "#ffaa76",
+    "editorLineNumber.foreground": "#ffaa76",
+    "editorLineNumber.activeForeground": "#552C41",
     "editorCursor.foreground": "#674c26",
     // ---------------------------
     // Badge
@@ -59,15 +59,15 @@ export default (syntax) => ({
     // ---------------------------
     // Button
     // ---------------------------
-    "button.background": "#099",
-    "button.foreground": "#f1f1f1",
-    "button.hoverBackground": "#0cc",
+    "button.background": "#ffaa76",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#ff9767",
     // ---------------------------
     // Dropdown
     // ---------------------------
     "dropdown.background": "#fff7ec",
     "dropdown.border": "#fff7ec",
-    "dropdown.foreground": "#005661",
+    "dropdown.foreground": "#664a23",
     // ---------------------------
     // Editor Marker Navigation
     // ---------------------------
@@ -108,8 +108,8 @@ export default (syntax) => ({
     "tab.inactiveForeground": "#7b623e",
     "tab.unfocusedActiveForeground": "#7b623e",
     "tab.unfocusedInactiveForeground": "#7b623e",
-    "tab.activeBorderTop": "#00b395",
-    "tab.activeModifiedBorder": "#00b368",
+    "tab.activeBorderTop": "#ffaa76",
+    "tab.activeModifiedBorder": "#e65800",
     "tab.activeBorder": "#fff7ec",
     "tab.unfocusedActiveBorder": "#fff7ec00",
     "tab.unfocusedHoverBackground": "#735A3C21",
@@ -132,10 +132,10 @@ export default (syntax) => ({
     // ---------------------------
     // Input Control
     // ---------------------------
-    "input.background": "#fff7ec",
-    "input.border": "#f2edde",
-    "input.foreground": "#6a7a7c",
-    "input.placeholderForeground": "#9fabad",
+    "input.background": "#ffe4bc",
+    "input.border": "#ffdd95",
+    "input.foreground": "#7b623e",
+    "input.placeholderForeground": "#807a73",
     "inputOption.activeBorder": "#735A3C",
     "inputValidation.errorBackground": "#ff2d1941",
     "inputValidation.errorBorder": "#ff2d19",
@@ -146,11 +146,11 @@ export default (syntax) => ({
     // ---------------------------
     // Editor Widgets
     // ---------------------------
-    "editorWidget.background": "#f2edde",
+    "editorWidget.background": "#ffdd95",
     "editorWidget.border": "#ff976700",
-    "editorHoverWidget.background": "#f2edde",
+    "editorHoverWidget.background": "#ffdd95",
     "editorHoverWidget.border": "#ff976700",
-    "editorSuggestWidget.background": "#f2edde",
+    "editorSuggestWidget.background": "#ffdd95",
     "editorSuggestWidget.border": "#ff976700",
     "editorSuggestWidget.foreground": "#6a7a7c",
     "editorSuggestWidget.highlightForeground": "#735A3C",
@@ -161,22 +161,22 @@ export default (syntax) => ({
     "editorGutter.background": "#fff7ec",
     "editorGutter.addedBackground": "#8ce99a",
     "editorGutter.deletedBackground": "#ff2d19",
-    "editorGutter.modifiedBackground": "#B65C7A",
+    "editorGutter.modifiedBackground": "#e65800",
     // ---------------------------
     // Selection Colors
     // ---------------------------
-    "editor.selectionBackground": "#ade2eb77",
+    "editor.selectionBackground": "#bad09577",
     "editor.selectionHighlightBackground": "#14a5ff33",
     "editor.selectionHighlightBorder": "#14a5ff00",
-    "editor.inactiveSelectionBackground": "#ade2eb55",
+    "editor.inactiveSelectionBackground": "#bad09555",
     "editor.wordHighlightStrongBackground": "#b5890027",
     "editor.wordHighlightStrongBorder": "#b5890000",
     "editor.wordHighlightBackground": "#B65C7A22",
     "editor.wordHighlightBorder": "#B65C7A00",
     "editor.findMatchBackground": "#8ce99a55",
     "editor.findMatchBorder": "#8ce99a00",
-    "editor.findMatchHighlightBackground": "#148f9f33",
-    "editor.findMatchHighlightBorder": "#148f9f00",
+    "editor.findMatchHighlightBackground": "#4883f033",
+    "editor.findMatchHighlightBorder": "#4883f000",
     "editor.findRangeHighlightBackground": "#99e62a55",
     "editor.findRangeHighlightBorder": "#58CC6D00",
     "editor.hoverHighlightBackground": "#735A3C3f",
@@ -185,8 +185,8 @@ export default (syntax) => ({
     "editor.rangeHighlightBackground": "#f1e9d5a1",
     "editorLink.activeForeground": "#14a5ff",
     "editorWhitespace.foreground": "#d3cec5bb",
-    "editorIndentGuide.background": "#d3cec5aa",
-    "editorIndentGuide.activeBackground": "#88adc3",
+    "editorIndentGuide.background": "#ffaa7650",
+    "editorIndentGuide.activeBackground": "#e65800",
     "editorBracketMatch.background": "#735A3C20",
     "editorBracketMatch.border": "#735A3C",
     "editorRuler.foreground": "#f1e6d0",
@@ -198,15 +198,15 @@ export default (syntax) => ({
     // Integrated Terminal Colors
     // ---------------------------
     "terminal.ansiBlack": "#003b42",
-    "terminal.ansiRed": "#e34e1c",
-    "terminal.ansiGreen": "#00b368",
-    "terminal.ansiYellow": "#f49725",
-    "terminal.ansiBlue": "#0094f0",
+    "terminal.ansiRed": "#ff2d19",
+    "terminal.ansiGreen": "#00917c",
+    "terminal.ansiYellow": "#ffd35b",
+    "terminal.ansiBlue": "#0069A5",
     "terminal.ansiMagenta": "#ff5792",
     "terminal.ansiCyan": "#00bdd6",
     "terminal.ansiWhite": "#8ca6a6",
     "terminal.ansiBrightBlack": "#004d57",
-    "terminal.ansiBrightRed": "#ff2d19",
+    "terminal.ansiBrightRed": "#ff0000",
     "terminal.ansiBrightGreen": "#00d17a",
     "terminal.ansiBrightYellow": "#ff8c00",
     "terminal.ansiBrightBlue": "#0fa3ff",
@@ -214,9 +214,9 @@ export default (syntax) => ({
     "terminal.ansiBrightCyan": "#00cbe6",
     "terminal.ansiBrightWhite": "#bbc3c4",
     "terminal.background": "#fce2bb",
-    "terminal.foreground": "#005661",
+    "terminal.foreground": "#664a23",
     "terminalCursor.background": "#fce2bb",
-    "terminalCursor.foreground": "#005661",
+    "terminalCursor.foreground": "#664a23",
     // ---------------------------
     // Merge
     // ---------------------------
@@ -234,14 +234,14 @@ export default (syntax) => ({
     // ---------------------------
     // Notification Colors
     // ---------------------------
-    "notificationCenter.border": "#f2edde",
-    "notificationCenterHeader.foreground": "#005661",
-    "notificationCenterHeader.background": "#f2edde",
-    "notificationToast.border": "#f2edde",
-    "notifications.foreground": "#005661",
-    "notifications.background": "#f2edde",
-    "notifications.border": "#f2edde",
-    "notificationLink.foreground": "#005661",
+    "notificationCenter.border": "#ffdd95",
+    "notificationCenterHeader.foreground": "#664a23",
+    "notificationCenterHeader.background": "#ffdd95",
+    "notificationToast.border": "#ffdd95",
+    "notifications.foreground": "#664a23",
+    "notifications.background": "#ffdd95",
+    "notifications.border": "#ffdd95",
+    "notificationLink.foreground": "#664a23",
     // ---------------------------
     // Diff
     // ---------------------------
@@ -256,17 +256,17 @@ export default (syntax) => ({
     // ---------------------------
     // Extensions
     // ---------------------------
-    "extensionButton.prominentBackground": "#099",
+    "extensionButton.prominentBackground": "#ffaa76",
     "extensionButton.prominentForeground": "#e5f5f5",
     "extensionButton.prominentHoverBackground": "#0cc",
-    focusBorder: "#f2edde",
-    foreground: "#005661",
+    focusBorder: "#ffdd95",
+    foreground: "#664a23",
     // ---------------------------
     // Panel
     // ---------------------------
     "panel.background": "#fce2bb",
-    "panel.border": "#00b395",
-    "panelTitle.activeBorder": "#00b395",
+    "panel.border": "#ffaa76",
+    "panelTitle.activeBorder": "#552C41",
     "panelTitle.activeForeground": "#735A3C",
     "panelTitle.inactiveForeground": "#7b623e",
     // ---------------------------
@@ -274,14 +274,14 @@ export default (syntax) => ({
     // ---------------------------
     "peekView.border": "#735A3C",
     "peekViewEditor.background": "#fff7e5",
-    "peekViewEditor.matchHighlightBackground": "#148f9f33",
-    "peekViewEditor.matchHighlightBorder": "#148f9f79",
+    "peekViewEditor.matchHighlightBackground": "#4883f033",
+    "peekViewEditor.matchHighlightBorder": "#4883f079",
     "peekViewEditorGutter.background": "#fff7e5",
     "peekViewResult.background": "#ffe4bc",
     "peekViewResult.fileForeground": "#B65C7A",
     "peekViewResult.lineForeground": "#87a7ab",
-    "peekViewResult.matchHighlightBackground": "#f2edde",
-    "peekViewResult.selectionBackground": "#f2edde",
+    "peekViewResult.matchHighlightBackground": "#ffdd95",
+    "peekViewResult.selectionBackground": "#ffdd95",
     "peekViewResult.selectionForeground": "#6a7a7c",
     "peekViewTitle.background": "#ffe4bc",
     "peekViewTitleDescription.foreground": "#87a7ab",
@@ -294,9 +294,9 @@ export default (syntax) => ({
     // Scroll Bar
     // ---------------------------
     "scrollbar.shadow": "#00000055",
-    "scrollbarSlider.activeBackground": "#735A3Cad",
-    "scrollbarSlider.background": "#6a90955b",
-    "scrollbarSlider.hoverBackground": "#735A3C62",
+    "scrollbarSlider.activeBackground": "#B65C7Aad",
+    "scrollbarSlider.background": "#DE94A45b",
+    "scrollbarSlider.hoverBackground": "#B65C7A62",
     // ---------------------------
     // Git status colors in File Explorer
     // ---------------------------
@@ -315,13 +315,13 @@ export default (syntax) => ({
     // Lists and Trees
     // ---------------------------
     "list.activeSelectionBackground": "#ffc998",
-    "list.activeSelectionForeground": "#005661",
+    "list.activeSelectionForeground": "#664a23",
     "list.dropBackground": "#cdcbb2",
     "list.focusBackground": "#bee3ea",
-    "list.focusForeground": "#005661",
+    "list.focusForeground": "#664a23",
     "list.highlightForeground": "#735A3C",
-    "list.hoverBackground": "#ffc087",
-    "list.hoverForeground": "#005661",
+    "list.hoverBackground": "#ffc998",
+    "list.hoverForeground": "#664a23",
     "list.inactiveFocusBackground": "#c9eaed",
     "list.inactiveSelectionBackground": "#ffcb9c",
     "list.inactiveSelectionForeground": "#452f1b",
@@ -336,16 +336,16 @@ export default (syntax) => ({
     // ---------------------------
     "settings.headerForeground": "#004d57",
     "settings.modifiedItemIndicator": "#00bd23",
-    "settings.dropdownListBorder": "#ade2eb88",
-    "settings.dropdownBackground": "#f2edde",
+    "settings.dropdownListBorder": "#bad09588",
+    "settings.dropdownBackground": "#ffdd95",
     "settings.dropdownForeground": "#0bb",
-    "settings.dropdownBorder": "#f2edde",
-    "settings.checkboxBackground": "#f2edde",
+    "settings.dropdownBorder": "#ffdd95",
+    "settings.checkboxBackground": "#ffdd95",
     "settings.checkboxForeground": "#0bb",
-    "settings.checkboxBorder": "#f2edde",
-    "settings.textInputBackground": "#f2edde",
+    "settings.checkboxBorder": "#ffdd95",
+    "settings.textInputBackground": "#ffdd95",
     "settings.textInputForeground": "#0bb",
-    "settings.textInputBorder": "#f2edde",
+    "settings.textInputBorder": "#ffdd95",
     "settings.numberInputBackground": "#f0e7d1",
     "settings.numberInputForeground": "#5842ff",
     "settings.numberInputBorder": "#f0e7d1",
@@ -355,21 +355,21 @@ export default (syntax) => ({
     "breadcrumb.foreground": "#7b623e",
     "breadcrumb.background": "#fff7ec",
     "breadcrumb.focusForeground": "#735A3C",
-    "breadcrumb.activeSelectionForeground": "#005661",
-    "breadcrumbPicker.background": "#f2edde",
+    "breadcrumb.activeSelectionForeground": "#664a23",
+    "breadcrumbPicker.background": "#ffdd95",
     // ---------------------------
     // Title bar
     // Note: These colors are currently only supported on macOS.
     // ---------------------------
     "titleBar.activeBackground": "#ffe4bc",
-    "titleBar.activeForeground": "#005661",
+    "titleBar.activeForeground": "#664a23",
     "titleBar.inactiveBackground": "#ffe4bc",
     "titleBar.inactiveForeground": "#7b623e",
     // ---------------------------
     // Custom title bar and menus
     // Note: These colors are currently only supported on Windows and Linux.
     // ---------------------------
-    "menu.background": "#f2edde",
+    "menu.background": "#ffdd95",
     "menu.foreground": "#7b623e",
     "menu.selectionBackground": "#d2f3f9",
     "menu.selectionForeground": "#735A3C",
@@ -390,7 +390,7 @@ export default (syntax) => ({
     "minimap.findMatchHighlight": "#735A3Caa",
     "minimap.errorHighlight": "#ff2d19ee",
     "minimap.warningHighlight": "#e69533ee",
-    "minimapGutter.addedBackground": "#5d9936",
+    "minimapGutter.addedBackground": "#8ce99a",
     "minimapGutter.modifiedBackground": "#e65800",
     "minimapGutter.deletedBackground": "#ff2d19",
     "minimap.background": "#fff7ec99",
