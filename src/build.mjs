@@ -9,21 +9,22 @@ import minimus from "./workbench/minimus.mjs";
 import bordo from "./workbench/bordo.mjs";
 import uva from "./workbench/uva.mjs";
 import viola from "./workbench/viola.mjs";
+import pan from "./workbench/pan.mjs";
 import { buildAllThemes } from "./buildAllThemes.mjs";
 
 export const THEMES = [
-   { lux: lux },
-   { hibernus: hibernus },
-   { lilac: lilac },
-   { noctis: noctis },
-   { azureus: azureus },
-   { obscuro: obscuro },
-   { sereno: sereno },
-   { minimus: minimus },
-   { bordo: bordo },
-   { uva: uva },
-   { viola: viola }
+  { lux: lux },
+  { pan: pan },
+  { hibernus: hibernus },
+  { lilac: lilac },
+  { noctis: noctis },
+  { azureus: azureus },
+  { obscuro: obscuro },
+  { sereno: sereno },
+  { minimus: minimus },
+  { bordo: bordo },
+  { uva: uva },
+  { viola: viola },
 ];
-
 
 buildAllThemes(THEMES);

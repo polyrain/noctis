@@ -46,6 +46,11 @@
                 "path": "./themes/lux.json"
             },
             {
+                "label": "minimi-color-theme",
+                "uiTheme": "vs",
+                "path": "./themes/minimi-color-theme.json"
+            },
+            {
                 "label": "Noctis Hibernus",
                 "uiTheme": "vs",
                 "path": "./themes/hibernus.json"
