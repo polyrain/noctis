@@ -22,7 +22,7 @@ export default (syntax) => ({
     // Activity Bar
     // ---------------------------
     "activityBar.background": "#ffaa76",
-    "activityBar.dropBackground": "#735A3C65",
+    "activityBar.dropBackground": "#ffc99865",
     "activityBar.foreground": "#735A3C",
     "activityBar.border": "#ff976700",
     "activityBarBadge.background": "#735A3C",
@@ -35,7 +35,7 @@ export default (syntax) => ({
     "sideBar.background": "#ffe4bc",
     "sideBar.foreground": "#7b623e",
     "sideBar.border": "#ff976700",
-    "sideBar.dropBackground": "#ffe4bc",
+    "sideBar.dropBackground": "#ffc99865",
     "sideBarTitle.foreground": "#7b623e",
     "sideBarTitle.background": "#ffaa76",
     "sideBarSectionHeader.background": "#ffaa7665",
@@ -49,7 +49,7 @@ export default (syntax) => ({
     "statusBar.debuggingBackground": "#ffe4bc",
     "statusBar.debuggingForeground": "#e9498150",
     "statusBar.debuggingBorder": "#e94981af",
-    "statusBar.noFolderForeground": "#87a7ab",
+    "statusBar.noFolderForeground": "#5d9936",
     "statusBar.noFolderBackground": "#ffe4bc",
     "statusBar.noFolderBorder": "#ffe4bc",
     "statusBarItem.activeBackground": "#dfeff1",
@@ -90,7 +90,7 @@ export default (syntax) => ({
     // ---------------------------
     "editorGroup.emptyBackground": "#b8ae9333",
     "editorGroup.border": "#f0e7d1",
-    "editorGroup.dropBackground": "#b8ae9333",
+    "editorGroup.dropBackground": "#ffc99865",
     // ---------------------------
     // Editor Group Header
     // ---------------------------
@@ -147,27 +147,27 @@ export default (syntax) => ({
     // Editor Widgets
     // ---------------------------
     "editorWidget.background": "#ffdd95",
-    "editorWidget.border": "#ff976700",
-    "editorHoverWidget.background": "#ffdd95",
-    "editorHoverWidget.border": "#ff976700",
+    "editorWidget.border": "#ff9767",
+    "editorHoverWidget.background": "#ffe4bc",
+    "editorHoverWidget.border": "#ff9767",
     "editorSuggestWidget.background": "#ffdd95",
-    "editorSuggestWidget.border": "#ff976700",
+    "editorSuggestWidget.border": "#ff9767",
     "editorSuggestWidget.foreground": "#6a7a7c",
     "editorSuggestWidget.highlightForeground": "#735A3C",
-    "editorSuggestWidget.selectedBackground": "#dbfaff",
+    "editorSuggestWidget.selectedBackground": "#bdd297",
     // ---------------------------
     // Gutter
     // ---------------------------
     "editorGutter.background": "#fff7ec",
-    "editorGutter.addedBackground": "#8ce99a",
+    "editorGutter.addedBackground": "#5d9936",
     "editorGutter.deletedBackground": "#ff2d19",
     "editorGutter.modifiedBackground": "#e65800",
     // ---------------------------
     // Selection Colors
     // ---------------------------
     "editor.selectionBackground": "#bad09577",
-    "editor.selectionHighlightBackground": "#14a5ff33",
-    "editor.selectionHighlightBorder": "#14a5ff00",
+    "editor.selectionHighlightBackground": "#4883f033",
+    "editor.selectionHighlightBorder": "#4883f000",
     "editor.inactiveSelectionBackground": "#bad09555",
     "editor.wordHighlightStrongBackground": "#b5890027",
     "editor.wordHighlightStrongBorder": "#b5890000",
@@ -180,11 +180,11 @@ export default (syntax) => ({
     "editor.findRangeHighlightBackground": "#99e62a55",
     "editor.findRangeHighlightBorder": "#58CC6D00",
     "editor.hoverHighlightBackground": "#735A3C3f",
-    "editor.lineHighlightBackground": "#ffe6bfcc",
-    "editor.lineHighlightBorder": "#ffe6bf00",
+    "editor.lineHighlightBackground": "#ffe4bccc",
+    "editor.lineHighlightBorder": "#ffe4bc00",
     "editor.rangeHighlightBackground": "#f1e9d5a1",
-    "editorLink.activeForeground": "#14a5ff",
-    "editorWhitespace.foreground": "#d3cec5bb",
+    "editorLink.activeForeground": "#4883f0",
+    "editorWhitespace.foreground": "#ffaa76bb",
     "editorIndentGuide.background": "#ffaa7650",
     "editorIndentGuide.activeBackground": "#e65800",
     "editorBracketMatch.background": "#735A3C20",
@@ -316,7 +316,7 @@ export default (syntax) => ({
     // ---------------------------
     "list.activeSelectionBackground": "#ffc998",
     "list.activeSelectionForeground": "#664a23",
-    "list.dropBackground": "#cdcbb2",
+    "list.dropBackground": "#ffc99865",
     "list.focusBackground": "#bee3ea",
     "list.focusForeground": "#664a23",
     "list.highlightForeground": "#735A3C",
@@ -387,7 +387,7 @@ export default (syntax) => ({
     // ---------------------------
     // Minimap
     // ---------------------------
-    "minimap.findMatchHighlight": "#735A3Caa",
+    "minimap.findMatchHighlight": "#ffd35baa",
     "minimap.errorHighlight": "#ff2d19ee",
     "minimap.warningHighlight": "#e69533ee",
     "minimapGutter.addedBackground": "#8ce99a",
