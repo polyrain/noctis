@@ -1,20 +1,38 @@
 export default {
   pan: {
+    comment: "#807a73", 
+    text: "#7b623e",
+    keyword: "#B65C7A", 
+    variable: "#6A5EB5", 
+    annotation: "#F7A600", 
+    constant: "#D2691E", 
+    tag: "#E07D4F", 
+    string: "#5d9936",
+    stringInterpolated: "#00917c",
+    number: "#FF6347",
+    function: "#4373D9", 
+    support: "#A05282", 
+    misc: "#B29230", 
+    invalid: "#ff2d19"
+},
+  
+  
+  /*{
     comment: "#807a73",
     text: "#7b623e",
     keyword: "#B65C7A",
-    variable: "#e65800",
-    annotation: "#b3694d",
-    constant: "#e6a800",
-    tag: "#ff7b00",
+    variable: "#6F42C1",
+    annotation: "#FF8C00",
+    constant: "#C71585",
+    tag: "#22863A",
     string: "#5d9936",
     stringInterpolated: "#00917c",
-    number: "#00b395",
+    number: "#FF4500",
     function: "#0069A5",
-    support: "#df69ba",
-    misc: "#5c6a72",
-    invalid: "#ff2d19",
-  },
+    support: "#A0522D",
+    misc: "#CD853F",
+    invalid: "#ff2d19"
+},*/
 
   /*
 --sage: #B2AF85ff;
