@@ -5,7 +5,7 @@ export default (syntax) => ({
     //  // ---------------------------
     // Editor Base Colors
     // ---------------------------
-    "selection.background": "#169fb155",
+    "selection.background": "#B65C7A55",
     descriptionForeground: "#929ea0",
     errorForeground: "#ff2d19",
     "widget.shadow": "#00000055",
@@ -47,15 +47,15 @@ export default (syntax) => ({
     "statusBar.foreground": "#735A3C",
     "statusBar.border": "#ff976700",
     "statusBar.debuggingBackground": "#ffe4bc",
-    "statusBar.debuggingForeground": "#e9498150",
-    "statusBar.debuggingBorder": "#e94981af",
+    "statusBar.debuggingForeground": "#735A3C50",
+    "statusBar.debuggingBorder": "#735A3Caf",
     "statusBar.noFolderForeground": "#5d9936",
     "statusBar.noFolderBackground": "#ffe4bc",
     "statusBar.noFolderBorder": "#ffe4bc",
-    "statusBarItem.activeBackground": "#dfeff1",
-    "statusBarItem.hoverBackground": "#d1e8eb",
-    "statusBarItem.prominentBackground": "#c1d4d7",
-    "statusBarItem.prominentHoverBackground": "#bfdee3",
+    "statusBarItem.activeBackground": "#ffdd95",
+    "statusBarItem.hoverBackground": "#ffcb9c",
+    "statusBarItem.prominentBackground": "#ffdd95",
+    "statusBarItem.prominentHoverBackground": "#ffcb9c",
     // ---------------------------
     // Button
     // ---------------------------
@@ -71,7 +71,7 @@ export default (syntax) => ({
     // ---------------------------
     // Editor Marker Navigation
     // ---------------------------
-    "editorMarkerNavigation.background": "#3a3a5e29",
+    "editorMarkerNavigation.background": "#735A3C29",
     "editorMarkerNavigationError.background": "#ff2d19",
     "editorMarkerNavigationWarning.background": "#e69533",
     // ---------------------------
@@ -117,10 +117,10 @@ export default (syntax) => ({
     // Text Colors
     // ---------------------------
     "textBlockQuote.background": "#ffe4bc",
-    "textBlockQuote.border": "#00899e",
+    "textBlockQuote.border": "#B65C7A",
     "textCodeBlock.background": "#ffe4bc",
-    "textLink.activeForeground": "#00b395",
-    "textLink.foreground": "#00b395",
+    "textLink.activeForeground": "#B65C7A",
+    "textLink.foreground": "#B65C7A",
     "textPreformat.foreground": "#B65C7A",
     "textSeparator.foreground": "#ffe4bc",
     // ---------------------------
@@ -152,9 +152,9 @@ export default (syntax) => ({
     "editorHoverWidget.border": "#ff9767",
     "editorSuggestWidget.background": "#ffdd95",
     "editorSuggestWidget.border": "#ff9767",
-    "editorSuggestWidget.foreground": "#6a7a7c",
+    "editorSuggestWidget.foreground": "#735A3C",
     "editorSuggestWidget.highlightForeground": "#735A3C",
-    "editorSuggestWidget.selectedBackground": "#bdd297",
+    "editorSuggestWidget.selectedBackground": "#ffdd95",
     // ---------------------------
     // Gutter
     // ---------------------------
@@ -166,8 +166,8 @@ export default (syntax) => ({
     // Selection Colors
     // ---------------------------
     "editor.selectionBackground": "#bad09577",
-    "editor.selectionHighlightBackground": "#4883f033",
-    "editor.selectionHighlightBorder": "#4883f000",
+    "editor.selectionHighlightBackground": "#B65C7A55",
+    "editor.selectionHighlightBorder": "#B65C7A00",
     "editor.inactiveSelectionBackground": "#bad09555",
     "editor.wordHighlightStrongBackground": "#b5890027",
     "editor.wordHighlightStrongBorder": "#b5890000",
@@ -175,10 +175,10 @@ export default (syntax) => ({
     "editor.wordHighlightBorder": "#B65C7A00",
     "editor.findMatchBackground": "#8ce99a55",
     "editor.findMatchBorder": "#8ce99a00",
-    "editor.findMatchHighlightBackground": "#4883f033",
-    "editor.findMatchHighlightBorder": "#4883f000",
-    "editor.findRangeHighlightBackground": "#99e62a55",
-    "editor.findRangeHighlightBorder": "#58CC6D00",
+    "editor.findMatchHighlightBackground": "#B65C7A55",
+    "editor.findMatchHighlightBorder": "#B65C7A00",
+    "editor.findRangeHighlightBackground": "#bfa35e55",
+    "editor.findRangeHighlightBorder": "#bfa35e00",
     "editor.hoverHighlightBackground": "#735A3C1f",
     "editor.lineHighlightBackground": "#ffe4bccc",
     "editor.lineHighlightBorder": "#ffe4bc00",
@@ -194,13 +194,13 @@ export default (syntax) => ({
     // ---------------------------
     // Code Lens
     // ---------------------------
-    "editorCodeLens.foreground": "#77aaca",
+    "editorCodeLens.foreground": "#7b623e",
     // ---------------------------
     // Integrated Terminal Colors
     // ---------------------------
-    "terminal.ansiBlack": "#003b42",
+    "terminal.ansiBlack": "#4a3a30",
     "terminal.ansiRed": "#ff2d19",
-    "terminal.ansiGreen": "#00917c",
+    "terminal.ansiGreen": "#5d9936",
     "terminal.ansiYellow": "#ffd35b",
     "terminal.ansiBlue": "#6a5e7f",
     "terminal.ansiMagenta": "#9b5e75",
@@ -208,7 +208,7 @@ export default (syntax) => ({
     "terminal.ansiWhite": "#8ca6a6",
     "terminal.ansiBrightBlack": "#004d57",
     "terminal.ansiBrightRed": "#ff0000",
-    "terminal.ansiBrightGreen": "#00d17a",
+    "terminal.ansiBrightGreen": "#77a65f",
     "terminal.ansiBrightYellow": "#ff8c00",
     "terminal.ansiBrightBlue": "#8a7e9f",
     "terminal.ansiBrightMagenta": "#c97a95",
@@ -222,14 +222,14 @@ export default (syntax) => ({
     // Merge
     // ---------------------------
     "merge.border": "#fff7ec00",
-    "merge.currentContentBackground": "#33e7ff33",
-    "merge.currentHeaderBackground": "#33e7ff55",
-    "merge.incomingContentBackground": "#9d92f233",
-    "merge.incomingHeaderBackground": "#9d92f255",
+    "merge.currentContentBackground": "#B65C7A33",
+    "merge.currentHeaderBackground": "#B65C7A55",
+    "merge.incomingContentBackground": "#735A3C33",
+    "merge.incomingHeaderBackground": "#735A3C55",
     "merge.commonContentBackground": "#ffc18033",
     "merge.commonHeaderBackground": "#ffc18055",
-    "editorOverviewRuler.currentContentForeground": "#33e7ff55",
-    "editorOverviewRuler.incomingContentForeground": "#9d92f255",
+    "editorOverviewRuler.currentContentForeground": "#B65C7A55",
+    "editorOverviewRuler.incomingContentForeground": "#735A3C55",
     "editorOverviewRuler.commonContentForeground": "#ffc18055",
     "editorOverviewRuler.border": "#fff7ec",
     // ---------------------------
@@ -253,13 +253,13 @@ export default (syntax) => ({
     // ---------------------------
     "debugToolBar.background": "#ffe4bc",
     "debugExceptionWidget.background": "#ffe4bc",
-    "debugExceptionWidget.border": "#00899e",
+    "debugExceptionWidget.border": "#735A3C",
     // ---------------------------
     // Extensions
     // ---------------------------
     "extensionButton.prominentBackground": "#ffaa76",
-    "extensionButton.prominentForeground": "#e5f5f5",
-    "extensionButton.prominentHoverBackground": "#0cc",
+    "extensionButton.prominentForeground": "#fff7ec",
+    "extensionButton.prominentHoverBackground": "#ff9767",
     focusBorder: "#ffdd95",
     foreground: "#664a23",
     // ---------------------------
@@ -275,17 +275,17 @@ export default (syntax) => ({
     // ---------------------------
     "peekView.border": "#735A3C",
     "peekViewEditor.background": "#fff7e5",
-    "peekViewEditor.matchHighlightBackground": "#4883f033",
-    "peekViewEditor.matchHighlightBorder": "#4883f079",
+    "peekViewEditor.matchHighlightBackground": "#B65C7A55",
+    "peekViewEditor.matchHighlightBorder": "#B65C7A79",
     "peekViewEditorGutter.background": "#fff7e5",
     "peekViewResult.background": "#ffe4bc",
     "peekViewResult.fileForeground": "#B65C7A",
-    "peekViewResult.lineForeground": "#87a7ab",
+    "peekViewResult.lineForeground": "#7b623e",
     "peekViewResult.matchHighlightBackground": "#ffdd95",
     "peekViewResult.selectionBackground": "#ffdd95",
-    "peekViewResult.selectionForeground": "#6a7a7c",
+    "peekViewResult.selectionForeground": "#735A3C",
     "peekViewTitle.background": "#ffe4bc",
-    "peekViewTitleDescription.foreground": "#87a7ab",
+    "peekViewTitleDescription.foreground": "#7b623e",
     "peekViewTitleLabel.foreground": "#B65C7A",
     // ---------------------------
     // Progress Bar
@@ -304,13 +304,13 @@ export default (syntax) => ({
     "gitDecoration.addedResourceForeground": "#5d9936",
     "gitDecoration.modifiedResourceForeground": "#e65800",
     "gitDecoration.deletedResourceForeground": "#ff2d19",
-    "gitDecoration.untrackedResourceForeground": "#00b395",
+    "gitDecoration.untrackedResourceForeground": "#5d9936",
     "gitDecoration.ignoredResourceForeground": "#7b623eaa",
     "gitDecoration.conflictingResourceForeground": "#B65C7A",
     // ---------------------------
     // Quick Picker
     // ---------------------------
-    "pickerGroup.border": "#00b395",
+    "pickerGroup.border": "#735A3C",
     "pickerGroup.foreground": "#735A3C",
     // ---------------------------
     // Lists and Trees
@@ -318,12 +318,12 @@ export default (syntax) => ({
     "list.activeSelectionBackground": "#ffc998",
     "list.activeSelectionForeground": "#664a23",
     "list.dropBackground": "#ffc99865",
-    "list.focusBackground": "#bee3ea",
+    "list.focusBackground": "#ffdd95",
     "list.focusForeground": "#664a23",
     "list.highlightForeground": "#735A3C",
     "list.hoverBackground": "#ffc998",
     "list.hoverForeground": "#664a23",
-    "list.inactiveFocusBackground": "#c9eaed",
+    "list.inactiveFocusBackground": "#ffdd95",
     "list.inactiveSelectionBackground": "#ffcb9c",
     "list.inactiveSelectionForeground": "#452f1b",
     "list.errorForeground": "#ff2d19",
@@ -336,13 +336,13 @@ export default (syntax) => ({
     // Settings Editor Colors
     // ---------------------------
     "settings.headerForeground": "#552C41",
-    "settings.modifiedItemIndicator": "#00bd23",
+    "settings.modifiedItemIndicator": "#e69533",
     "settings.dropdownListBorder": "#bad09588",
     "settings.dropdownBackground": "#ffdd95",
-    "settings.dropdownForeground": "#0bb",
+    "settings.dropdownForeground": "#735A3C",
     "settings.dropdownBorder": "#ffdd95",
     "settings.checkboxBackground": "#ffdd95",
-    "settings.checkboxForeground": "#0bb",
+    "settings.checkboxForeground": "#735A3C",
     "settings.checkboxBorder": "#ffdd95",
     "settings.textInputBackground": "#ffdd95",
     "settings.textInputForeground": "#664a23",
@@ -372,12 +372,12 @@ export default (syntax) => ({
     // ---------------------------
     "menu.background": "#ffdd95",
     "menu.foreground": "#7b623e",
-    "menu.selectionBackground": "#d2f3f9",
+    "menu.selectionBackground": "#ffdd95",
     "menu.selectionForeground": "#735A3C",
-    "menu.selectionBorder": "#d2f3f9",
-    "menubar.selectionBackground": "#d2f3f9",
+    "menu.selectionBorder": "#ffdd95",
+    "menubar.selectionBackground": "#ffdd95",
     "menubar.selectionForeground": "#735A3C",
-    "menubar.selectionBorder": "#d2f3f9",
+    "menubar.selectionBorder": "#ffdd95",
     // ---------------------------
     // Snippets
     // ---------------------------
@@ -391,7 +391,7 @@ export default (syntax) => ({
     "minimap.findMatchHighlight": "#ffd35baa",
     "minimap.errorHighlight": "#ff2d19ee",
     "minimap.warningHighlight": "#e69533ee",
-    "minimapGutter.addedBackground": "#8ce99a",
+    "minimapGutter.addedBackground": "#5d9936",
     "minimapGutter.modifiedBackground": "#e65800",
     "minimapGutter.deletedBackground": "#ff2d19",
     "minimap.background": "#fff7ec99",
