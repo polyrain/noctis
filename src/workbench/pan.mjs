@@ -5,7 +5,7 @@ export default (syntax) => ({
     //  // ---------------------------
     // Editor Base Colors
     // ---------------------------
-    "selection.background": "#B65C7A55",
+    "selection.background": "#169fb155",
     descriptionForeground: "#929ea0",
     errorForeground: "#ff2d19",
     "widget.shadow": "#00000055",
@@ -372,10 +372,10 @@ export default (syntax) => ({
     // ---------------------------
     "menu.background": "#ffdd95",
     "menu.foreground": "#7b623e",
-    "menu.selectionBackground": "#ffdd95",
+    "menu.selectionBackground": "#ffcb9c",
     "menu.selectionForeground": "#735A3C",
     "menu.selectionBorder": "#ffdd95",
-    "menubar.selectionBackground": "#ffdd95",
+    "menubar.selectionBackground": "#ffcb9c",
     "menubar.selectionForeground": "#735A3C",
     "menubar.selectionBorder": "#ffdd95",
     // ---------------------------
