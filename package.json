@@ -99,6 +99,11 @@
                 "label": "Noctis Minimus",
                 "uiTheme": "vs-dark",
                 "path": "./themes/minimus.json"
+            },
+            {
+                "label": "Pan",
+                "uiTheme": "vs",
+                "path": "./themes/pan.json"
             }
         ]
     },
